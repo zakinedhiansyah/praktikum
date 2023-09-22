@@ -1,0 +1,122 @@
+PRAKTIKUM PEMROGRAMAN BERBASIS MOBILE PERTEMUAN 3
+
+1. fun main() {
+    println("Hello, world!!!")
+}
+
+output : Hello, world!!!
+
+2. fun main() {
+    println("Hello, Android!!!")
+}
+
+output : Hello, Android!!!
+
+3. fun main() {
+    println("Hello, Android!!!")
+    println("Hello, Android!!!")
+}
+
+
+output : Hello, Android!!!
+	Hello, Android!!!
+
+4. fun main() {
+    println("Hello, ZAKI NEDHIANSYAH")
+    println("Hello, ZAKI NEDHIANSYAH")
+}
+
+output : Hello, ZAKI NEDHIANSYAH
+	Hello, ZAKI NEDHIANSYAH
+
+5. fun main() {
+    println("Today is sunny!)
+}
+
+output : 
+Expecting '"'
+Expecting ')' 
+
+//error karena kurang tanda kutip 2 (")
+
+6. fun main() {
+    println("Today is sunny")
+}
+
+Output : Today is sunny
+
+7. fun main() {
+    println("1")
+    println("2")
+    println("3")
+}
+
+output :1
+	2
+	3
+
+8. fun main() {
+    println("I'm")
+    println("learning")
+    println("kotlin!")
+}
+
+output : I'm
+	learning
+	kotlin!
+
+9. fun main() {
+    println("Tuesday")
+    println("Thursday")
+    println("Wednesday")
+    println("Friday")
+    println("Monday")
+}
+
+output :Tuesday
+	Thursday
+	Wednesday
+	Friday
+	Monday
+
+10. fun main() {
+    println("Monday")
+    println("Tuesday")
+    println("Wednesday")
+    println("Thursday")
+    println("Friday")
+}
+
+output : Monday
+	Tuesday
+	Wednesday
+	Thursday
+	Friday
+
+11. fun main() {
+    println("Tomorrow is rainy")
+}
+
+output : Tomorrow is rainy
+
+12. fun main() {
+    println("There is a chance of snow")
+}
+
+output : There is a chance of snow
+
+13. fun main() {
+    println("Cloudy") 
+	println("Partly Cloudy") 
+	println("Windy")
+}
+
+output : Cloudy
+	Partly Cloudy
+	Windy
+
+14. fun main() {
+    println("How's the weather today?")
+  }
+
+output : How's the weather today?

@@ -1,0 +1,147 @@
+1. fun main() {
+    val count: Int = 2
+    println(count)
+}
+
+output : 2
+
+2.fun main() {
+    val count: Int = 2
+    println("You have count unread messages.")
+}
+
+output : You have count unread messages.
+
+3. fun main() {
+    val count: Int = 2
+    println("You have $count unread messages.")
+}
+
+output : You have 2 unread messages.
+
+4. fun main() {
+    val count: Int = 10
+    println("You have $count unread messages.")
+}
+
+output : You have 10 unread messages.
+
+
+5. fun main() {
+    val unreadCount = 5
+    val readCount = 100
+    println("You have ${unreadCount + readCount} total messages in your inbox.")
+}
+
+output : You have 105 total messages in your inbox.
+
+
+6. fun main() {
+    val photosCount = 100
+    val photosdeleteCount = 10
+    val photosleftCount = 90
+    println(" $photosCount photos")
+    println(" $photosdeleteCount photos deleted")
+    println(" $photosleftCount photos left")
+    
+}
+
+
+output :  100 photos
+ 	10 photos deleted
+ 	90 photos left
+
+7.fun main() {
+    var cartTotal = 0
+    cartTotal = 20
+    println("Total: $cartTotal")
+}
+
+output : Total: 20
+
+8. fun main() {
+    var cartTotal = 0
+    println("Total: $cartTotal")
+
+    cartTotal = 20
+    println("Total: $cartTotal")
+}
+
+output : Total: 0
+	Total: 20
+
+9. fun main() {
+    val count: Int = 10
+    println("You have $count unread messages.")
+}
+
+output : You have 10 unread messages.
+
+10. fun main() {
+    var count = 10
+    println("You have $count unread messages.")
+    count = count + 1
+}
+
+output : You have 10 unread messages.
+
+11. fun main() {
+    var count = 10
+    println("You have $count unread messages.")
+    count = count + 1
+    println("You have $count unread messages.")
+}
+
+output : You have 10 unread messages.
+You have 11 unread messages.
+
+12. fun main() {
+    var count = 10
+    println("You have $count unread messages.")
+    count++
+    println("You have $count unread messages.")
+}
+
+output : You have 10 unread messages.
+You have 11 unread messages.
+
+13.fun main() {
+    var count = 10
+    println("You have $count unread messages.")
+    count--
+    println("You have $count unread messages.")
+}
+
+output : You have 10 unread messages.
+You have 9 unread messages.
+
+
+14. fun main() {
+    val trip1: Double = 3.20
+    val trip2: Double = 4.10
+    val trip3: Double = 1.72
+    val totalTripLength: Double = trip1 + trip2 + trip3
+    println("$totalTripLength miles left to destination")
+}
+
+
+output : 9.02 miles left to destination
+
+15. fun main() {
+    val nextMeeting = "Next meeting is:"
+    val date = "January 1"
+    val reminder = nextMeeting + date
+    println(reminder)
+}
+
+output : Next meeting is:January 1
+
+16. fun main() {
+    val nextMeeting = "Next meeting is:"
+    val date = "January 1"
+    val reminder = nextMeeting + date  +  "at work"
+    println(reminder)
+}
+
+output : Next meeting is:January 1at work
+
